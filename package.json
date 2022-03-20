@@ -14,5 +14,6 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
     "vite": "^2.8.0"
+    "homepage": "https://echovie.github.io/my-repo/"
   }
 }
