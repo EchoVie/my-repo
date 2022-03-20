@@ -32,5 +32,5 @@ jobs:
         ARGS: '-rltgoDzvO --delete'
         SOURCE: build # 这是要复制到阿里云静态服务器的文件夹名称
         REMOTE_HOST: ${{ secrets.SERVER_HOST }} # 你的阿里云公网地址
-        REMOTE_USER: ${{ secrets.SERVER_USER }}  # 阿里云登录后默认为root 用户，并且所在文件夹为root
+        REMOTE_USER: ${{ secrets.SERVER_USER }}  # 阿里云登录后默认为root用户，并且所在文件夹为root
         TARGET: /root/my-repo # 打包后的 build 文件夹将放在 /root/my-repo
